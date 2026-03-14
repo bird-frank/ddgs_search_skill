@@ -14,12 +14,16 @@ An Agent Skill for searching web content via DuckDuckGo. No API key required.
 ### Via ClawHub (Recommended)
 
 ```bash
-clawhub install ddgs-search
+clawhub install ddgs-search-api
 ```
 
 ### Manual Installation
 
-1. Clone or copy the `skills/ddgs-search` directory to your project
+1. Clone the project locally, then copy the `skills/ddgs-search` directory to a common Agent Skill installation directory:
+   - **OpenClaw**: `~/.openclaw/skills/`
+   - **Claude Code**: `~/.claude/skills/` (global) or `<YourProject>/.claude/skills/` (project-local)
+   - **General**: `~/.agents/skills/`
+
 2. Install dependencies with `uv`:
 
 ```bash
