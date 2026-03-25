@@ -80,3 +80,5 @@ Thumbs.db
 # Local configuration
 .env.local
 .env.*.local
+
+.ruby-version
